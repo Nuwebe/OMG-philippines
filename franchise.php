@@ -42,13 +42,14 @@ if(isset($_SESSION['user_id'])){
 <!--------------------- Franchising 1 ------------------>
 
 <div class="video">
-    <video src="images/OMG-video.mp4" autoplay muted loop height="90%" width="100%"></video>
+    <video src="images/OMG-video.mp4" autoplay muted loop></video>
 </div>
 
 <div class="OMG-brief-history">
-    <p id="OMG-brief-history">
+    <p id="history-box-1">
         OMG milktea, milkshake, and coffee started last three years, just when pandemic 2020 started.
-        <br><br>
+    </p>
+    <p id="history-box-2">
         Now that everybody are quarantined, they tried to know what the 
         netizens' are looking for and what they want. At first, they strive 
         to make their milktea, a popular beverage here in Philippines. 
@@ -57,7 +58,8 @@ if(isset($_SESSION['user_id'])){
         another beverages like Milkshake and coffee. Many people loved and 
         supported their continously upgrading beverages. Because of this, 
         they are slowly shining.
-        <br><br>
+    </p>
+    <p id="history-box-3">
         In growing their business, in just two years they managed to franchise
         in different parts in Laguna, even here in Manila, lastly, they are
         now open for franchising nationwide.        

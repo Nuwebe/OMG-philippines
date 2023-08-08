@@ -217,23 +217,16 @@ svg  {
 
 /* Franchise changes stars here*/
 .video video {
-   margin-top: 50px;
-   padding: 100px 100px 200px 100px;
-   align-items: center;
-   justify-items: center;
-   border: 2px solid #000;
-   background: #FFBE00; 
+   height: 30%;
+   width: 70%;
+   margin: 20px 250px 40px;
+   padding: 70px;
+   background-color: #FFD93D;
+   border: 2px solid #4F200D;
+   border-radius: 110px;
 }
 
-#OMG-brief-history {
-   height: 300px;
-   width: 700px;
-   text-align: left;
-   font-family: 'Inter', sans serif;
-   font-size: 25px;
-   border: 10px solid red;
-   border-radius: 50px;
-}
+
 
 Franchise-Now h4 {
    color: #FF1607;
