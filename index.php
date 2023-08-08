@@ -41,7 +41,7 @@ include 'components/add_cart.php';
 }   
 ?>
 
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
    <meta charset="UTF-8">
@@ -76,7 +76,7 @@ include 'components/add_cart.php';
         <div class="content1">
         
             <h1>OPEN FOR FRANCHISE NATIONWIDE!</h1>
-            <h1>5 in 1 FRANCHISE</h1>
+            <h1>8 in 1 FRANCHISE</h1>
             <p>With initial stocks and initial equipments, food panda application, creation of page, extensive training and initial marketing included</p>
             <br><a href="franchise.php" class="button11">Franchise Now!</a>
        

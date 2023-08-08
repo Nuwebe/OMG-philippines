@@ -1210,8 +1210,7 @@ footer.footer .move-up span:hover{
 
 
 *{
-   font-family: 'Inter', sans-serif;
-  font-weight: 700;
+   font-family: 'Open Sans', sans-serif;
    margin: 0; padding: 0;
    box-sizing: border-box;
    text-decoration: none;
@@ -1382,7 +1381,6 @@ section{
    top:0; left:0; right:0;
    z-index: 1000;
    border-bottom: var(--border);
-   background-color: white;
 }
 
 .header .flex{
@@ -1400,24 +1398,24 @@ section{
 .header .flex .navbar a{
     font-size: 1.7rem;
     border-radius: .5rem;
-    color: black;
+    color: white;
    margin:0 1rem;
 }
 
 .header .flex .navbar a:hover{
-   color:red;
+   color:var(--yellow);
    text-decoration: underline;
 }
 
 .header .flex .icons > *{
    margin-left: 1.5rem;
    font-size: 2.5rem;
-   color:black;
+   color:white;
    cursor: pointer;
 }
 
 .header .flex .icons > *:hover{
-   color: red;
+   color: var(--yellow);
 }
 
 .header .flex .icons span{
@@ -1445,7 +1443,7 @@ section{
 
 
 .header .flex .profile{
-   background-color:white;
+   background-color:var(--red);
    border:var(--border);
    padding: 12px 16px;
    text-align: center;
@@ -1472,7 +1470,7 @@ section{
 
 .header .flex .profile .name{
    font-size: 2rem;
-   color:black;
+   color:white;
    margin-bottom: .5rem;
 }
 
@@ -2517,7 +2515,7 @@ border: 1px solid #000000;
       top:99%; left: 0; right: 0;
       border-top: var(--border);
       border-bottom: var(--border);
-      background-color:var(--white);
+      background-color:var(--red);
       transition: .2s linear;
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
    }
