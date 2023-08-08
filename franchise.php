@@ -71,7 +71,7 @@ if(isset($_SESSION['user_id'])){
 </div>
 
 <div class="follow">
-    <h3>With 1.3 million followers in teh food indistry</h3>
+    <h3>With 1.3 million followers in the food indistry</h3>
 </div>
 
 <div class="franchise">
@@ -82,7 +82,7 @@ if(isset($_SESSION['user_id'])){
     <h3>Food panda integrated</h3>
 </div>
 
-<div class="Sales">
+<div class="sales">
     <h3>Proven sales record</h3>
 </div>
 
@@ -91,7 +91,7 @@ if(isset($_SESSION['user_id'])){
 </div>
 
 <div class="fastest">
-    <h3>Fastest growinga nd trending franchise</h3>
+    <h3>Fastest growing and trending franchise</h3>
 </div>
 
 <div class="Legit">
