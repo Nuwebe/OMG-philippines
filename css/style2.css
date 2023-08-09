@@ -218,7 +218,6 @@ svg  {
 /* Franchise changes starts here*/
 
 .video video {
-<<<<<<< Updated upstream
    height: 30%;
    width: 70%;
    margin: 20px 240px 40px;
@@ -236,14 +235,12 @@ svg  {
    border: 5px solid #FFD93D;
    border-radius: 20px;
    line-height: 50px;
-=======
    margin: 40px 80px;
    padding: 40px 200px;
    height: 70%;
    width: 90%;
    border-radius: 50px;
    border: 5px solid #000;
-   background: #FFBE00;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -271,7 +268,6 @@ svg  {
    font-size: 30px;
    font-style: normal;
    font-weight: 400;
->>>>>>> Stashed changes
 }
 
 #history-box-2 {

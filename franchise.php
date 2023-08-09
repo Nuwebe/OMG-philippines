@@ -49,11 +49,7 @@ if(isset($_SESSION['user_id'])){
     <p id="history-box-1">
         OMG milktea, milkshake, and coffee started last three years, just when pandemic 2020 started.
     </p>
-<<<<<<< Updated upstream
-    <p id="history-box-2">
-=======
     <p id="history-box-2"> 
->>>>>>> Stashed changes
         Now that everybody are quarantined, they tried to know what the 
         netizens' are looking for and what they want. At first, they strive 
         to make their milktea, a popular beverage here in Philippines. 
@@ -63,11 +59,7 @@ if(isset($_SESSION['user_id'])){
         supported their continously upgrading beverages. Because of this, 
         they are slowly shining.
     </p>
-<<<<<<< Updated upstream
-    <p id="history-box-3">
-=======
     <p id="history-box-3"> 
->>>>>>> Stashed changes
         In growing their business, in just two years they managed to franchise
         in different parts in Laguna, even here in Manila, lastly, they are
         now open for franchising nationwide.    
