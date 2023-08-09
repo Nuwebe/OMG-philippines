@@ -215,8 +215,7 @@ svg  {
    font-size: 1.5rem;
 }
 
-/* Franchise changes starts here*/
-
+/* Franchise changes stars here*/
 .video video {
    height: 30%;
    width: 70%;
@@ -235,50 +234,16 @@ svg  {
    border: 5px solid #FFD93D;
    border-radius: 20px;
    line-height: 50px;
-   margin: 40px 80px;
-   padding: 40px 200px;
-   height: 70%;
-   width: 90%;
-   border-radius: 50px;
-   border: 5px solid #000;
-   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-#history-box-1 {
-   border-radius: 50px;
-   border: 5px solid #FFBE00;
-   color: #000;
-   margin: 100px; 
-   width: 400px;
-   padding: 50px;
-   font-family: Inter;
-   font-size: 30px;
-   font-style: normal;
-   font-weight: 400;
-}
-
-#history-box-2 {
-   border-radius: 50px;
-   border: 5px solid #FFBE00;
-   color: #000;
-   margin: 100px; 
-   width: 400px;
-   padding: 50px;
-   font-family: Inter;
-   font-size: 30px;
-   font-style: normal;
-   font-weight: 400;
 }
 
 #history-box-2 {
    font-size: 16px;
-   font-family: Inter;
-   line-height: 40px;
-   word-spacing: 1px;
    width: 900px;
    padding: 50px;
    border: 5px solid #FFD93D;
    border-radius: 20px;
+   line-height: 40px;
+   word-spacing: 1px;
    letter-spacing: 0.5px;
    position: absolute;
    top: 850px;
@@ -287,30 +252,26 @@ svg  {
 
 #history-box-3 {
    font-size: 16px;
-   font-family: Inter;
-   line-height: 40px;
-   word-spacing: 1px;
    width: 900px;
    padding: 50px;
    border: 5px solid #FFD93D;
    border-radius: 20px;
    position: absolute;
-   top: 1250px;
+   top: 1300px;
    right: 100px;
 }
-
 
 .Franchise-Now h4 {
    color: #FF1607;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #000;
    text-align: center;
+   font-size: 96px;
    font-size: 60px;
    font-family: Inter;
    font-style: normal;
    font-weight: 700;
    line-height: normal;
-   margin: 50px;
    padding: 30px;
 }
 
@@ -334,6 +295,7 @@ svg  {
    top: 1620px;
    left: 180px;
 }
+
 
 .franchise {
    color: white;
@@ -446,6 +408,7 @@ svg  {
    top: 1810px;
    right: 10px;
 }
+
 
 /* Franchise changes ends here*/
 
@@ -1088,7 +1051,6 @@ p {
    color: #ffffff;
  }
  
- 
  .signin-active a {
    padding-bottom: 10px;
    color: #4F200D;
@@ -1378,7 +1340,8 @@ footer.footer .move-up span:hover{
 
 
 *{
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Inter', sans-serif;
+  font-weight: 700;
    margin: 0; padding: 0;
    box-sizing: border-box;
    text-decoration: none;
@@ -1549,6 +1512,7 @@ section{
    top:0; left:0; right:0;
    z-index: 1000;
    border-bottom: var(--border);
+   background-color: white;
 }
 
 .header .flex{
@@ -1566,24 +1530,24 @@ section{
 .header .flex .navbar a{
     font-size: 1.7rem;
     border-radius: .5rem;
-    color: white;
+    color: black;
    margin:0 1rem;
 }
 
 .header .flex .navbar a:hover{
-   color:var(--yellow);
+   color:red;
    text-decoration: underline;
 }
 
 .header .flex .icons > *{
    margin-left: 1.5rem;
    font-size: 2.5rem;
-   color:white;
+   color:black;
    cursor: pointer;
 }
 
 .header .flex .icons > *:hover{
-   color: var(--yellow);
+   color: red;
 }
 
 .header .flex .icons span{
@@ -1611,7 +1575,7 @@ section{
 
 
 .header .flex .profile{
-   background-color:var(--red);
+   background-color:white;
    border:var(--border);
    padding: 12px 16px;
    text-align: center;
@@ -1638,7 +1602,7 @@ section{
 
 .header .flex .profile .name{
    font-size: 2rem;
-   color:white;
+   color:black;
    margin-bottom: .5rem;
 }
 
@@ -1733,7 +1697,7 @@ section{
 .category .box-container .box:hover h3{
    color:black;
 }
-/*
+
 .products .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, 33rem);
@@ -1913,101 +1877,7 @@ section{
 .products .cart-total .btn{
    margin-top: 0;
 }
-*/
 
-.products {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 1rem;
- }
- 
- .products .box-container {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   gap: 1.5rem;
- }
- 
- .products .box {
-   border: var(--border);
-   padding: 1.5rem;
-   background-color: beige;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
-   width: 300px;
- }
- 
- .products .box img {
-   max-width: 100%;
-   height: auto;
- }
- 
- .products .name {
-   font-size: 1.2rem;
-   font-weight: bold;
- }
- 
- .products .flex {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin-top: 1rem;
- }
- 
- .products .price {
-   font-size: 1rem;
-   color: var(--red);
- }
- 
- .products .qty {
-   width: 50px;
-   text-align: center;
- }
- 
- .products .sub-total {
-   font-size: 1rem;
-   margin-top: 1rem;
- }
- 
- .products .cart-total {
-   font-size: 1.2rem;
-   font-weight: bold;
-   margin-top: 1rem;
- }
- 
- .products .cart-total span {
-   color: var(--red);
- }
- 
- .products .more-btn {
-   display: flex;
-   justify-content: space-between;
-   margin-top: 1rem;
- }
- 
- .products .delete-btn,
- .products .btn {
-   padding: 0.5rem 1rem;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
- }
- 
- .products .delete-btn {
-   background-color: var(--red);
-   color: var(--white);
- }
- 
- .products .btn {
-   background-color: var(--green);
-   color: var(--white);
- }
- 
- .products .disabled {
-   pointer-events: none;
-   opacity: 0.5;
- }
- 
 .about .row{
    display: flex;
    align-items: center;
@@ -2619,24 +2489,7 @@ border: 1px solid #000000;
     height:200px; 
     border:0;
 }
-/*reciept*/
-.receipt {
-   max-width: 600px;
-   margin: 20px auto;
-   padding: 20px;
-   border: 1px solid #ddd;
-   text-align: center;
-}
-.receipt h2 {
-   margin-bottom: 10px;
-}
-.receipt p {
-   margin: 5px 0;
-}
-.receipt .total {
-   font-size: 1.2rem;
-   font-weight: bold;
-}
+
 
 
 
@@ -2683,7 +2536,7 @@ border: 1px solid #000000;
       top:99%; left: 0; right: 0;
       border-top: var(--border);
       border-bottom: var(--border);
-      background-color:var(--red);
+      background-color:var(--white);
       transition: .2s linear;
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
    }
@@ -2815,12 +2668,4 @@ a.button13{
 width:300px;
 height:200px; 
   
-}
-
-
-
-
-
-
-
 }
