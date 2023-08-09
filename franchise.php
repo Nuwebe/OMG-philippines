@@ -72,10 +72,12 @@ if(isset($_SESSION['user_id'])){
 
 <div class="follow">
     <h3>With 1.3 million followers in the food indistry</h3>
+    <img src="./images/icons/check black.png" alt="check mark">
 </div>
 
 <div class="franchise">
     <h3>Franchise are multi-awarded in the field of customer service and training</h3>
+    <img src="./images/icons/check white.png" alt="check mark">
 </div>
 
 <div class="food-panda">
