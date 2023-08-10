@@ -71,14 +71,27 @@ if(isset($_SESSION['user_id'])){
     <h4>Franchise NOW!</h4>
 </div>
 
-<div class="follow">
-    <h3>With 1.3 million followers in the food indistry</h3>
-    <img src="./images/icons/check black.png" alt="check mark">
+<div class="franchise-grid">
+    <h3 id="follow">With 1.3 million followers in the food indistry</h3>
+    <h3 id="franchise">Franchise are multi-awarded in the field of customer service and training</h3>
+    <h3 id="food-panda">Food panda integrated</h3>
+    <h3 id="sales">Proven sales record</h3>
+    <h3 id="products">Products are very affordable yet the ingredients are of the highest quality</h3>
+    <h3 id="fastest">Fastest growing and trending franchise</h3>
+    <h3 id="legit">Legit and promoted but the VIPs</h3>
+    <h3 id="tofil">The Outstanding Filipino 2019 Recognized</h3>
 </div>
 
-<div class="franchise">
+<div class="franchise-packages">
+    <img src="./images/picture 1.jpg" alt="franchise-picture">
+    <h2>FRANCHISE PACKAGES</h2>
+    <h3>It's a 5 in 1 franchise!</h3>
+    <p>Why settle for just one drink when you can have five of it</p>
+</div>
+
+
+<!-- <div class="franchise">
     <h3>Franchise are multi-awarded in the field of customer service and training</h3>
-    <img src="./images/icons/check white.png" alt="check mark">
 </div>
 
 <div class="food-panda">
@@ -103,5 +116,5 @@ if(isset($_SESSION['user_id'])){
 
 <div class="TOFIL">
     <h3>The Outstanding Filipino 2019 Recognized</h3>
-</div>
+</div> -->
 
