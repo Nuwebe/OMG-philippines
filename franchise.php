@@ -84,37 +84,12 @@ if(isset($_SESSION['user_id'])){
 
 <div class="franchise-packages">
     <img src="./images/picture 1.jpg" alt="franchise-picture">
-    <h2>FRANCHISE PACKAGES</h2>
-    <h3>It's a 5 in 1 franchise!</h3>
-    <p>Why settle for just one drink when you can have five of it</p>
+    <!-- I added some class in each text and changed the header size instead of p -->
+    <h2 class="header-1">FRANCHISE PACKAGES</h2> 
+    <h2 class="header-2">It's a 5 in 1 franchise!</h2> 
+    <h2 class="header-3">Why settle for just one drink when you can have five of it</h2> 
 </div>
 
 
-<!-- <div class="franchise">
-    <h3>Franchise are multi-awarded in the field of customer service and training</h3>
-</div>
 
-<div class="food-panda">
-    <h3>Food panda integrated</h3>
-</div>
-
-<div class="sales">
-    <h3>Proven sales record</h3>
-</div>
-
-<div class="products">
-    <h3>Products are very affordable yet the ingredients are of the highest quality</h3>
-</div>
-
-<div class="fastest">
-    <h3>Fastest growing and trending franchise</h3>
-</div>
-
-<div class="Legit">
-    <h3>Legit and promoted but the VIPs</h3>
-</div>
-
-<div class="TOFIL">
-    <h3>The Outstanding Filipino 2019 Recognized</h3>
-</div> -->
 
